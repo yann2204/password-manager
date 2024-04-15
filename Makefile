@@ -1,6 +1,6 @@
 
 CPP = g++
-CFLAGS += -g -Wall 
+CFLAGS += -Wall 
 OBJS = main.o element.o decodage.o codage.o
 
 
