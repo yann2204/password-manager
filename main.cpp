@@ -74,7 +74,7 @@ void PrintAll(std::string str) {
     std::cout << "**********************************" << std::endl;
         std::cout << "Select a number :" ;
         std::cin >> number;
-    if (number < (int)data.size()) {
+    if (number <= (int)data.size()) {
         std::cout << "**********************************" << std::endl;
         std::cout << data[number-1].GetChapter() << std::endl;
         std::cout << "**********************************" << std::endl;
