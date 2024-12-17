@@ -26,16 +26,16 @@ void resetEchoMode()
 
 std::string decodage(std::string filename){
 	int dec;std::string s;
-	int mdp;
-	std::cout << "mot de passe : ";
-	deleteEchoMode();
-	std::cin >> mdp;
-	resetEchoMode();
-	std::cout << std::endl;
-	if(mdp != 27182818) {
-		std::cout << "mot de passe incorrect" << std::endl;
-		return "\0";
-	}
+	//int mdp;
+	// std::cout << "mot de passe : ";
+	// deleteEchoMode();
+	// std::cin >> mdp;
+	// resetEchoMode();
+	// std::cout << std::endl;
+	// if(mdp != 27182818) {
+	// 	std::cout << "mot de passe incorrect" << std::endl;
+	// 	return "\0";
+	// }
 	std::cout << "decalage : ";
 	deleteEchoMode();
 	std::cin >> dec;

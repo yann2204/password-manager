@@ -18,6 +18,7 @@ class element {
         std::string GetContent();
         void SetChapter(std::string str);
         void SetContent(std::string str);
+        void printelement();
 };
 
 #endif

@@ -1,4 +1,6 @@
 #include"element.hpp"
+#include<ostream>
+#include<iostream>
 #include<string>
 
 std::string element::GetChapter() {
@@ -15,6 +17,10 @@ void element::SetChapter(std::string str) {
 
  void element::SetContent(std::string str) {
     this->content = str;
+ }
+
+ void element::printelement(){
+    std::cout << "{ Chapter : " << this->GetChapter() << ", Content : " << this->GetContent() << " }" << std::endl;
  }
 
 
